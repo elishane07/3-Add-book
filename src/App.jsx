@@ -7,8 +7,8 @@ import useBookContext from './hooks/UseBookContext';
 function App() {
 
   const { fetchBooks } = useBookContext()
-
-  useEffect(() => {
+//
+  useEffect(() => { 
     fetchBooks()
   }, [fetchBooks])
  
